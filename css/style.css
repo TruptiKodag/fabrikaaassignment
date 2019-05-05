@@ -1,0 +1,114 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.border {
+    border: 1px solid red;
+}
+
+.navbar-default .navbar-toggle {
+    float: left;
+    margin-left: 10px;
+}
+
+.border-wh {
+    border: 1px solid white;
+}
+
+.icon {
+    margin: 10px 0px;
+    font-size: 30px;
+    color: black;
+    position: absolute;
+    right: 10px;
+    top: 5px;
+}
+
+.bg-red {
+    background-color: red;
+}
+
+.navbar-default .navbar-nav>li>a {
+    color: white;
+}
+
+.navbar-default .navbar-nav>.active>a {
+    color: brown;
+}
+
+.form-control {
+    margin: 0px 10px 10px 0px;
+    display: inline-block;
+}
+
+.image-wrapper img {
+    margin: 20px 0 0 20px;
+}
+
+.badge {
+    margin-top: -40px;
+    margin-left: -35px;
+    color: red;
+    background: white;
+}
+
+.search-box {
+    margin-right: 0px;
+    margin-left: 0px;
+}
+
+.searching-box {
+    margin-right: 0px;
+    margin-left: 0px;
+    width: 70%;
+    display: none;
+    margin-top: 10px;
+}
+
+.navbar-default .navbar-toggle {
+    border: none;
+}
+
+.navbar-default .navbar-toggle .icon-bar {
+    background-color: white;
+}
+
+.image-wrapper {
+    margin-top: 98px;
+}
+
+.logo-img img {
+    margin-top: 15px;
+}
+
+@media only screen and (min-width: 768px) {
+    .navbar-nav {
+        float: right;
+        margin-right: 100px;
+    }
+    .searching-box {
+        width: 345%;
+    }
+    .search-box {
+        width: 65%;
+    }
+    .logo-img {
+        padding-top: 15px;
+    }
+}
+
+@media only screen and (max-width:500px) {
+    .searching-box {
+        margin-left: -9px;
+        margin-top: 8px;
+    }
+    .menu-wrap li a {
+        margin-top: 5px;
+    }
+    .logo-img img {
+        margin-left: -10px;
+        margin-top: 15px;
+    }
+}
